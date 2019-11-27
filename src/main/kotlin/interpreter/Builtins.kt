@@ -27,7 +27,7 @@ import green.sailor.kython.interpreter.pyobject.PyNone
 import green.sailor.kython.interpreter.pyobject.types.*
 
 /**
- * Represents the builtins.
+ * Represents the builtins. a
  */
 @Suppress("MemberVisibilityCanBePrivate")
 object Builtins {

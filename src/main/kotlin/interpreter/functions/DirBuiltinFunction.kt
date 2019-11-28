@@ -26,7 +26,7 @@ import green.sailor.kython.interpreter.pyobject.PyObject
 import green.sailor.kython.interpreter.throwKy
 
 /**
- * Represents the dir(x) built-in function.
+ * Represents the dir(x) built-in function. trest
  */
 class DirBuiltinFunction : PyBuiltinFunction("dir") {
     override val signature: PyCallableSignature = PyCallableSignature("obb" to ArgType.POSITIONAL)

@@ -21,7 +21,7 @@ import green.sailor.kython.interpreter.functions.PyBuiltinFunction
 import green.sailor.kython.interpreter.pyobject.PyObject
 
 /**
- * Represents a built-in stack frame.
+ * Represents a built-in stack frame. a
  */
 class BuiltinStackFrame(val builtinFunction: PyBuiltinFunction) : StackFrame() {
     override fun runFrame(kwargs: Map<String, PyObject>): PyObject =

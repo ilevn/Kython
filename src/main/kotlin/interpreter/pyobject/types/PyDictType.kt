@@ -22,7 +22,7 @@ import green.sailor.kython.interpreter.pyobject.PyObject
 import green.sailor.kython.interpreter.pyobject.PyType
 
 /**
- * Represents the type of a dict.
+ * Represents the type of a dict. a
  */
 object PyDictType : PyType("dict") {
     override fun newInstance(kwargs: Map<String, PyObject>): PyObject {

@@ -178,7 +178,7 @@ abstract class PyObject() {
     abstract fun getPyRepr(): PyString
 
     /**
-     * Gets the string of this object, safely. Used for exceptions, et al.
+     * Gets the string of this object, safely. Used for exceptions, et al. hey
      */
     fun getPyStringSafe(): PyString = try {
         getPyStr()

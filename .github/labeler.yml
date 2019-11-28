@@ -1,0 +1,11 @@
+repo:
+  - ./*
+# PRs about instructions or the StackFrame.
+bytecode:
+  # Double ** because I'm lazy.
+  - src/**/UserCodeStackFrame.kt
+  - src/**/instruction/*
+# PRs about the interpreter
+builtins:
+  - src/**/interpreter/pyobject/*
+  - src/**/interpreter/pyobject/**/*

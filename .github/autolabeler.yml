@@ -1,4 +1,0 @@
-interpreter: ["/interpreter/*.kt"]
-ifunctions: ["/interpreter/functions"]
-ifunctionsmagic: ["/interpreter/functions/magic"]
-config: .github

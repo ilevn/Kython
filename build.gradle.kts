@@ -72,6 +72,7 @@ tasks {
         kotlinOptions.jvmTarget = "11"
     }
 }
+"hey"
 
 // apparently this is how you do junit
 tasks.test {

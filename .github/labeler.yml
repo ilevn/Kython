@@ -1,3 +1,9 @@
+gradle:
+  - build.gradle.kts
+  - gradlew.bat
+  - gradlew
+  - gradle-properties
+  - gradle/*
 "c: repo":
   - ./*
 # PRs about instructions or the StackFrame.
